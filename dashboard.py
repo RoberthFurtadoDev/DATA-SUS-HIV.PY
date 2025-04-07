@@ -14,7 +14,6 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
-echo "#DATA-SUS-HIV.PY" >> README.md
 
 with st.sidebar:
     st.image("logo_datasus.png", width=250)
@@ -144,4 +143,4 @@ O uso do Python e das bibliotecas modernas de visualização foi essencial para 
 
 st.markdown("---")
 st.caption(
-    "Fonte: DATASUS/TabNet • Desenvolvido por Livius, Roberth, Elisei, Gabriel ©")
+    "Fonte: DATASUS/TabNet • Desenvolvido por Livius, Roberth, Eliseu, Gabriel ©")
